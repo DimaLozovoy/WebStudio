@@ -1,18 +1,27 @@
+:root {
+  --title-color: #212121;
+  --description-color: #757575; 
+  --hover: #2196f3;
+  --bg-color: #2f303a;
+  --text-color: #fff;
+  --comp-name-color: #000;
+}
 body {
     margin: 0;
     padding: 0;
+    font-family: Roboto;
   }
-  .head-div ul,
-  .head-div {
+  .container ul,
+  .container {
     display: flex;
   }
-  .head-div ul {
+  .container ul {
     list-style-type: none;
     margin-top: 23px;
   }
   
-  .comp-name  {
-    color: #000;
+  .comp-name {
+    color: var(--comp-name-color);
     font-family: Raleway;
     font-size: 26px;
     font-style: normal;
@@ -21,7 +30,7 @@ body {
     letter-spacing: 0.78px;
   }
   .comp-name span {
-    color: #2196f3;
+    color: var(--hover);
     font-family: Raleway;
     font-size: 26px;
     font-style: normal;
@@ -29,40 +38,37 @@ body {
     line-height: normal;
     letter-spacing: 0.78px;
   }
-  .head-div li {
+  .container li {
     margin: 15px;
   }
-  .head-nav {
-    color: #212121;
-    font-family: Roboto;
+  .nav-link {
+    color: var(--title-color);
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
   }
-  .head-nav li:hover {
-    color: #2196f3;
+  .nav-link:hover {
+    color: var(--hover); 
     transition: 0.5s;
   }
-  .head-contact a {
-    color: #757575;
-    font-family: Roboto;
+  .cont-link {
+    color: var(--description-color);
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
   }
-  .head-contact a:hover {
-    color: #2196f3;
+  .cont-link:hover {
+    color: var(--hover);
     transition: 0.5s;
   }
   /* end of header */
   .hero-button {
-    color: #fff;
+    color: var(--text-color);
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -71,13 +77,12 @@ body {
     width: 216px;
     height: 50px;
     border-radius: 4px;
-    background: #2196F3;
+    background: var(--hover);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     margin-left: 652px;
   }
   .hero-information {
-    color: #fff;
-    font-family: Roboto;
+    color: var(--text-color);
     font-size: 44px;
     font-style: normal;
     font-weight: 900;
@@ -88,13 +93,12 @@ body {
     padding-top: 170px;
   }
   .hero {
-    background-color: #2f303a;
+    background-color: var(--bg-color);
     height: 600px;
   }
 /* end of first section */
   .advantages-title {
-    color: #212121;
-    font-family: Roboto;
+    color: var(--title-color);
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -103,8 +107,7 @@ body {
     text-transform: uppercase;
   }
   .advantages-text {
-    color: #757575;
-    font-family: Roboto;
+    color: var(--description-color);
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -119,9 +122,8 @@ body {
   }
   /* end of second section */
   .job-title {
-    color: #212121;
+    color: var(--title-color);
     text-align: center;
-    font-family: Roboto;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -138,10 +140,9 @@ body {
     margin: 20px;
   }
   /* end of third section */
-  .command-name {
-    color: #212121;
+  .command-names {
+    color: var(--title-color);
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -149,9 +150,8 @@ body {
     letter-spacing: 0.48px;
   }
   .our-command-title {
-      color: #212121;
+      color: var(--title-color);
       text-align: center;
-      font-family: Roboto;
       font-size: 36px;
       font-style: normal;
       font-weight: 700;
@@ -159,10 +159,9 @@ body {
       letter-spacing: 1.08px;
       padding-top: 90px;
   }
-  .command-work {
-      color: #757575;
+  .command-profession {
+      color: var(--description-color);
       text-align: center;
-      font-family: Roboto;
       font-size: 16px;
       font-style: normal;
       font-weight: 400;
@@ -177,9 +176,8 @@ body {
   .our-command-cell {
       list-style-type: none;
       border-radius: 0px 0px 4px 4px;
-      background: #FFF;
+      background: var(--text-color);
       margin: 0 20px;
-      
   }
   .our-command-img {
     width: 250px;
@@ -187,15 +185,14 @@ body {
   .our-command {
       height: 648px;
       background-color: #f5f4fa;
-  
   }
   /* end of penultimate section */
   .footer-information {
-      background-color: #2F303A;
+      background-color: var(--bg-color);
       height: 252px;
   }
   .footer-comp-name span {
-      color: #2196F3;
+      color: var(--hover);
       font-family: Raleway;
       font-size: 26px;
       font-style: normal;
@@ -204,7 +201,7 @@ body {
       letter-spacing: 0.78px;
   }
   .footer-comp-name {
-      color: #FFF;
+      color: var(--text-color);
       font-family: Raleway;
       font-size: 26px;
       font-style: normal;
@@ -213,8 +210,7 @@ body {
       letter-spacing: 0.78px;
   }
   .footer-address a:first-child {
-      color: #FFF;
-      font-family: Roboto;
+      color: var(--text-color);
       font-size: 14px;
       font-style: normal;
       font-weight: 400;
@@ -223,7 +219,6 @@ body {
   }
   .address-link {
       color: rgba(255, 255, 255, 0.60);
-      font-family: Roboto;
       font-size: 14px;
       font-style: normal;
       font-weight: 400;
@@ -242,9 +237,8 @@ body {
   /* portfolio styles begin */
   
   .hero-btns button {
-    color: #212121;
+    color: var(--title-color);
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -258,17 +252,16 @@ body {
     flex-shrink: 0;
   }
   .hero-btns button:hover {
-    color: #FFF;
+    color: var(--text-color);
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 26px; /* 162.5% */
     letter-spacing: 0.48px;
     border-radius: 4px;
-    background: #2196F3;
-    border-color: #2196F3;
+    background: var(--hover);
+    border-color: var(--hover);
     transition: 0.5s;
   }
   .hero-btns {
@@ -280,8 +273,7 @@ body {
     list-style-type: none;
   }
   .hero-imgs-text {
-    color: #757575;
-    font-family: Roboto;
+    color: var(--description-color);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -290,8 +282,7 @@ body {
     margin: 0px 24px 20px;
   }
   .hero-imgs-title {
-    color: #212121;
-    font-family: Roboto;
+    color: var(--title-color);
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -301,7 +292,7 @@ body {
   }
   .hero-imgs-cell {
     border: 1px solid #EEE;
-    background: #FFF;
+    background: var(--text-color);
     width: 370px;
     height: 404px;
     flex-shrink: 0;
