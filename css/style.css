@@ -18,98 +18,74 @@ body {
     list-style-type: none;
     margin-top: 23px;
   }
-  
   .comp-name {
-    color: #000;
     font-family: Raleway;
     font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
     letter-spacing: 0.78px;
   }
   .comp-name span {
     color: var(--accent-color);
-    font-family: Raleway;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.78px;
   }
   .container li {
     margin: 15px;
   }
   .nav-link {
-    color: var(--main-color);
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
     letter-spacing: 0.28px;
+    transition: 0.5s;
+    text-decoration: none;
   }
   .nav-link:hover {
-    color: var(--hover); 
-    transition: 0.5s;
+    color: var(--accent-color);
   }
   .cont-link {
     color: var(--add-color);
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     letter-spacing: 0.28px;
+    transition: 0.5s;
+    text-decoration: none;
   }
   .cont-link:hover {
     color: var(--accent-color);
-    transition: 0.5s;
   }
   /* end of header */
   .hero-button {
     color: var(--text-color);
-    text-align: center;
     font-size: 16px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 30px;
     letter-spacing: 0.96px;
     width: 216px;
     height: 50px;
     border-radius: 4px;
     background: var(--accent-color);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    margin-left: 652px;
+    margin: 0 652px 201px;
   }
   .hero-information {
     color: var(--text-color);
     font-size: 44px;
-    font-style: normal;
     font-weight: 900;
     line-height: 60px;
     letter-spacing: 2.64px;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 170px;
+    padding-top: 200px;
   }
   .hero {
     background-color: var(--bg-color);
-    height: 600px;
+    /* height: 600px; */
   }
 /* end of first section */
-  .advantages-title {
-    color: var(--main-color);
+  .advantages-item-title {
     font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
   }
   .advantages-text {
     color: var(--add-color);
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.42px;
   }
@@ -121,12 +97,8 @@ body {
   }
   /* end of second section */
   .job-title {
-    color: var(--main-color);
     text-align: center;
     font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
     letter-spacing: 1.08px;
   }
   .job-list {
@@ -140,31 +112,19 @@ body {
   }
   /* end of third section */
   .command-names {
-    color: var(--main-color);
     text-align: center;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
     letter-spacing: 0.48px;
   }
   .our-command-title {
-      color: var(--main-color);
       text-align: center;
       font-size: 36px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
       letter-spacing: 1.08px;
       padding-top: 90px;
   }
   .command-profession {
       color: var(--add-color);
       text-align: center;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
       letter-spacing: 0.48px;
   }
   .our-command-list {
@@ -182,22 +142,14 @@ body {
     width: 250px;
   }
   .our-command {
-      height: 648px;
+      /* height: 648px; */
       background-color: #f5f4fa;
+      padding-bottom: 95px;
   }
   /* end of penultimate section */
   .footer-information {
       background-color: var(--bg-color);
       height: 252px;
-  }
-  .footer-comp-name span {
-      color: var(--hover);
-      font-family: Raleway;
-      font-size: 26px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-      letter-spacing: 0.78px;
   }
   .footer-comp-name {
       color: var(--text-color);
@@ -210,19 +162,15 @@ body {
   }
   .footer-address a:first-child {
       color: var(--text-color);
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 24px; 
       letter-spacing: 0.42px;
   }
   .address-link {
       color: rgba(255, 255, 255, 0.60);
       font-size: 14px;
       font-style: normal;
-      font-weight: 400;
       line-height: 24px; 
       letter-spacing: 0.42px;
+      text-decoration: none;
   }
   .footer-address {
       display: flex;
@@ -236,12 +184,7 @@ body {
   /* portfolio styles begin */
   
   .hero-btns button {
-    color: var(--main-color);
-    text-align: center;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 26px; 
     letter-spacing: 0.48px;
     border-radius: 4px;
     background-color: #F5F4FA;
@@ -254,9 +197,6 @@ body {
     color: var(--text-color);
     text-align: center;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 26px; /* 162.5% */
     letter-spacing: 0.48px;
     border-radius: 4px;
     background: var(--accent-color);
@@ -273,18 +213,12 @@ body {
   }
   .hero-imgs-text {
     color: var(--add-color);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.48px;
     margin: 0px 24px 20px;
   }
   .hero-imgs-title {
-    color: var(--main-color);
     font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 36px; 
     letter-spacing: 1.08px;
     margin: 5px 24px 20px;
