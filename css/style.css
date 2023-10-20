@@ -6,8 +6,6 @@
   --text-color: white;
 }
 body {
-    margin: 0;
-    padding: 0;
     font-family: Roboto;
   }
   .container ul,
@@ -16,7 +14,6 @@ body {
   }
   .container ul {
     list-style-type: none;
-    margin-top: 23px;
   }
   .comp-name {
     font-family: Raleway;
@@ -30,6 +27,7 @@ body {
     margin: 15px;
   }
   .nav-link {
+    color: var(--main-color);
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -56,12 +54,12 @@ body {
     color: var(--text-color);
     font-size: 16px;
     font-weight: 700;
+    font-family: Roboto;
     letter-spacing: 0.96px;
     width: 216px;
     height: 50px;
     border-radius: 4px;
     background: var(--accent-color);
-    margin: 0 652px 201px;
   }
   .hero-information {
     color: var(--text-color);
@@ -71,7 +69,6 @@ body {
     letter-spacing: 2.64px;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 200px;
   }
   .hero {
     background-color: var(--bg-color);
@@ -79,6 +76,7 @@ body {
   }
 /* end of first section */
   .advantages-item-title {
+    color: var(--main-color);
     font-size: 14px;
     letter-spacing: 0.42px;
     text-transform: uppercase;
@@ -120,7 +118,6 @@ body {
       text-align: center;
       font-size: 36px;
       letter-spacing: 1.08px;
-      padding-top: 90px;
   }
   .command-profession {
       color: var(--add-color);
@@ -176,14 +173,10 @@ body {
       display: flex;
       flex-direction: column;
   }
-  .footer-list {
-      margin: auto 120px;
-      padding-top: 50px;
-  }
   /* end of footer|index styles */
   /* portfolio styles begin */
   
-  .hero-btns button {
+  .projects-select button {
     font-size: 16px;
     letter-spacing: 0.48px;
     border-radius: 4px;
@@ -193,7 +186,7 @@ body {
     height: 38px;
     flex-shrink: 0;
   }
-  .hero-btns button:hover {
+  .projects-select button:hover {
     color: var(--text-color);
     text-align: center;
     font-size: 16px;
@@ -203,27 +196,27 @@ body {
     border-color: var(--accent-color);
     transition: 0.5s;
   }
-  .hero-btns {
+  .projects-select {
     display: flex;
     list-style-type: none;
     justify-content: center;
   }
-  .hero-imgs-list {
+  .projects-list {
     list-style-type: none;
   }
-  .hero-imgs-text {
+  .projects-imgs-text {
     color: var(--add-color);
     line-height: 30px;
     letter-spacing: 0.48px;
     margin: 0px 24px 20px;
   }
-  .hero-imgs-title {
+  .projects-imgs-title {
     font-size: 18px;
     line-height: 36px; 
     letter-spacing: 1.08px;
     margin: 5px 24px 20px;
   }
-  .hero-imgs-cell {
+  .projects-list-cell {
     border: 1px solid #EEE;
     background: var(--text-color);
     width: 370px;
