@@ -146,16 +146,10 @@ body {
   /* end of penultimate section */
   .footer-information {
       background-color: var(--bg-color);
-      height: 252px;
   }
   .footer-comp-name {
       color: var(--text-color);
-      font-family: Raleway;
-      font-size: 26px;
-      font-style: normal;
-      font-weight: 700;
       line-height: normal;
-      letter-spacing: 0.78px;
   }
   .footer-address a:first-child {
       color: var(--text-color);
@@ -180,6 +174,7 @@ body {
     font-size: 16px;
     letter-spacing: 0.48px;
     border-radius: 4px;
+    font-weight: 500;
     background-color: #F5F4FA;
     border-color: #F5F4FA;
     width: 130px;
@@ -195,6 +190,7 @@ body {
     background: var(--accent-color);
     border-color: var(--accent-color);
     transition: 0.5s;
+    cursor: pointer;
   }
   .projects-select {
     display: flex;
@@ -204,19 +200,20 @@ body {
   .projects-list {
     list-style-type: none;
   }
-  .projects-imgs-text {
+  .projects-text {
     color: var(--add-color);
     line-height: 30px;
     letter-spacing: 0.48px;
     margin: 0px 24px 20px;
   }
-  .projects-imgs-title {
+  .projects-title {
+    color: var(--main-color);
     font-size: 18px;
     line-height: 36px; 
     letter-spacing: 1.08px;
     margin: 5px 24px 20px;
   }
-  .projects-list-cell {
+  .projects-cell {
     border: 1px solid #EEE;
     background: var(--text-color);
     width: 370px;
