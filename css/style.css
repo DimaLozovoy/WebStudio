@@ -95,6 +95,7 @@ body {
   }
   /* end of second section */
   .job-title {
+    color: var(--main-color);
     text-align: center;
     font-size: 36px;
     letter-spacing: 1.08px;
@@ -110,11 +111,14 @@ body {
   }
   /* end of third section */
   .command-names {
+    color: var(--main-color);
     text-align: center;
     font-size: 16px;
     letter-spacing: 0.48px;
+    font-weight: 500;
   }
   .our-command-title {
+      color: var(--main-color);
       text-align: center;
       font-size: 36px;
       letter-spacing: 1.08px;
@@ -171,6 +175,7 @@ body {
   /* portfolio styles begin */
   
   .projects-select button {
+    color: var(--main-color);
     font-size: 16px;
     letter-spacing: 0.48px;
     border-radius: 4px;
