@@ -1,7 +1,7 @@
 :root {
-  --main-color: #212121; /*--title-color*/
-  --add-color: #757575; /* --description-color*/
-  --accent-color: #2196f3; /*--hover*/
+  --main-color: #212121;
+  --add-color: #757575;
+  --accent-color: #2196f3; 
   --bg-color: #2f303a; 
   --text-color: white;
 }
@@ -9,26 +9,27 @@ body {
     font-family: Roboto;
   }
   .container {
-    width: 1170px;
+    width: 1200px;
+    margin: 25px 215px;
   }
-  .container ul,
-  .container {
+   .header-information, .list {
     display: flex;
+    align-self: center;
   }
-  .container ul {
+  .list {
     list-style-type: none;
+    margin: 0;
   }
   .comp-name {
     font-family: Raleway;
     font-size: 26px;
-    letter-spacing: 0.78px;
-    margin: 24px 93px 31px;
+    margin: 0;
+    padding-right: 92px;
   }
   .comp-name span {
     color: var(--accent-color);
   }
-  .container li {
-    margin-top: 15px;
+  .nav-item, .contact-item {
     padding-right: 50px;
   }
   .nav-link {
@@ -50,6 +51,7 @@ body {
     letter-spacing: 0.28px;
     transition: 0.5s;
     text-decoration: none;
+    align-self: center;
   }
   .cont-link:hover {
     color: var(--accent-color);
@@ -78,7 +80,7 @@ body {
     text-transform: uppercase;
     text-align: center;
     padding-top: 199px;
-    margin: 0;
+    margin: 0 auto;
   }
   .hero {
     background-color: var(--bg-color);
@@ -86,9 +88,7 @@ body {
   }
 /* end of first section */
   .advantages {
-    margin: 93px;
-    height: 98px;
-    padding: 0 45px 0 0;
+    padding-right: 30px;
   }
   .advantages-item-title {
     color: var(--main-color);
@@ -110,7 +110,7 @@ body {
   }
   /* end of second section */
   .job {
-    padding: 0 0 93px 0;
+    padding-bottom: 93px;
   }
   .job-title {
     color: var(--main-color);
@@ -121,15 +121,15 @@ body {
   .job-list {
     display: flex;
     align-items: center;
-    padding: 0 10%;
+    margin: 0 auto;
   }
   .job-cell {
     list-style-type: none;
-    margin: 20px;
+    padding: 20px;
   }
   /* end of third section */
   .our-command {
-    padding: 91px 0;
+    padding: 93px 0;
   }
   .command-names {
     color: var(--main-color);
@@ -168,13 +168,13 @@ body {
     width: 250px;
   }
   .our-command {
-      /* height: 648px; */
       background-color: #f5f4fa;
   }
   /* end of penultimate section */
   .footer-information {
       background-color: var(--bg-color);
-      padding: 62px;
+      margin: 0 auto;
+      padding: 62px 0;
   }
   .footer-comp-name {
       color: var(--text-color);
@@ -191,7 +191,6 @@ body {
       line-height: 1.71; 
       letter-spacing: 0.42px;
       text-decoration: none;
-      padding-left: 92px;
   }
   .footer-address {
       display: flex;
