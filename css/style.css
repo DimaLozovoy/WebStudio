@@ -8,14 +8,56 @@
 body {
     font-family: Roboto;
   }
-  .container {
-    width: 1230px;
-    margin: 0 auto;
-    padding: 25px 15px;
+  h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.list {
+  list-style: none;
+  padding: 0;
+}
+.link {
+  text-decoration: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+  .header {
+    padding: 25px 0;
   }
-   .header-information, .list {
+
+  .container {
+    box-sizing: border-box;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+   .header-information, .cont-nav-list,  .container-contact-list {
     display: flex;
-    align-self: center;
+    align-items: center;
   }
   .list {
     list-style-type: none;
@@ -25,13 +67,17 @@ body {
     font-family: Raleway;
     font-size: 26px;
     margin: 0;
-    padding-right: 92px;
+    margin-right: 92px;
   }
   .comp-name span {
     color: var(--accent-color);
   }
-  .nav-item, .contact-item {
-    padding-right: 50px;
+  .cont-nav-list, .container-contact-list {
+    display: flex;
+    gap: 50px;
+  }
+  .cont-nav-list {
+    margin-right: 345px;
   }
   .nav-link {
     color: var(--main-color);
@@ -57,6 +103,7 @@ body {
   .cont-link:hover {
     color: var(--accent-color);
   }
+
   /* end of header */
   .hero-button {
     color: var(--text-color);
@@ -85,11 +132,13 @@ body {
   }
   .hero {
     background-color: var(--bg-color);
-    height: 600px;
+    padding-bottom: 200px;
   }
 /* end of first section */
-  .advantages {
-    padding-right: 30px;
+  .advantages-list {
+    gap: 30px;
+    padding-top: 93px;
+    padding-bottom: 118px;
   }
   .advantages-item-title {
     color: var(--main-color);
@@ -146,6 +195,7 @@ body {
       text-align: center;
       font-size: 36px;
       letter-spacing: 1.08px;
+      padding-bottom: 50px;
   }
   .command-profession {
       color: var(--add-color);
@@ -211,7 +261,8 @@ body {
     width: 130px;
     height: 38px;
     flex-shrink: 0;
-    margin-right: 15px;
+    margin-top: 93px;
+    margin-bottom: 50px;
   }
   .projects-select button:hover {
     color: var(--text-color);
@@ -226,6 +277,7 @@ body {
   }
   .projects-select {
     display: flex;
+    gap: 15px;
     list-style-type: none;
     justify-content: center;
   }
@@ -248,6 +300,10 @@ body {
     line-height: 36px; 
     letter-spacing: 1.08px;
     margin: 5px 24px 20px;
+  }
+  .projects-list {
+    width: 1200px;
+    margin-bottom: 93px;
   }
   .projects-list-cell {
     border: 1px solid #EEE;
