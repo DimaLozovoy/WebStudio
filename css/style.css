@@ -45,10 +45,11 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+
   .header {
     padding: 25px 0;
   }
-
   .container {
     box-sizing: border-box;
     width: 1200px;
@@ -127,18 +128,15 @@ img {
     letter-spacing: 2.64px;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 199px;
     margin: 0 auto;
   }
   .hero {
     background-color: var(--bg-color);
-    padding-bottom: 200px;
+    padding: 200px 0;
   }
 /* end of first section */
   .advantages-list {
     gap: 30px;
-    padding-top: 93px;
-    padding-bottom: 118px;
   }
   .advantages-item-title {
     color: var(--main-color);
@@ -157,29 +155,32 @@ img {
   }
   .advantages-cell {
     list-style-type: none;
+    padding-top: 94px;
+    padding-bottom: 118px;
   }
   /* end of second section */
   .job {
-    padding-bottom: 93px;
+    padding-bottom: 94px;
   }
   .job-title {
     color: var(--main-color);
     text-align: center;
     font-size: 36px;
     letter-spacing: 1.08px;
+    padding-bottom: 60px;
   }
   .job-list {
     display: flex;
     align-items: center;
     margin: 0 auto;
+    gap: 40px;
   }
   .job-cell {
     list-style-type: none;
-    padding: 20px;
   }
   /* end of third section */
   .our-command {
-    padding: 93px 0;
+    padding: 94px 0;
   }
   .command-names {
     color: var(--main-color);
@@ -195,7 +196,7 @@ img {
       text-align: center;
       font-size: 36px;
       letter-spacing: 1.08px;
-      padding-bottom: 50px;
+      margin-bottom: 50px;
   }
   .command-profession {
       color: var(--add-color);
@@ -225,7 +226,7 @@ img {
   .footer-information {
       background-color: var(--bg-color);
       margin: 0 auto;
-      padding: 62px 0;
+      padding: 60px 0;
   }
   .footer-comp-name {
       color: var(--text-color);
@@ -261,8 +262,6 @@ img {
     width: 130px;
     height: 38px;
     flex-shrink: 0;
-    margin-top: 93px;
-    margin-bottom: 50px;
   }
   .projects-select button:hover {
     color: var(--text-color);
@@ -303,7 +302,6 @@ img {
   }
   .projects-list {
     width: 1200px;
-    margin-bottom: 93px;
   }
   .projects-list-cell {
     border: 1px solid #EEE;
