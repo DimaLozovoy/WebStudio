@@ -143,6 +143,7 @@ img {
     font-size: 14px;
     letter-spacing: 0.42px;
     text-transform: uppercase;
+    margin-bottom: 10px;
   }
   .advantages-text {
     color: var(--add-color);
