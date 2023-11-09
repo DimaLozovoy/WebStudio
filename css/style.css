@@ -247,6 +247,7 @@ img {
   .footer-address {
       display: flex;
       flex-direction: column;
+      gap: 9px;
   }
   /* end of footer|index styles */
   /* portfolio styles begin */
