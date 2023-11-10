@@ -51,7 +51,6 @@ img {
     padding: 25px 0;
   }
   .container {
-    box-sizing: border-box;
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
@@ -59,10 +58,6 @@ img {
    .header-information, .cont-nav-list,  .container-contact-list {
     display: flex;
     align-items: center;
-  }
-  .list {
-    list-style-type: none;
-    margin: 0;
   }
   .comp-name {
     font-family: Raleway;
@@ -86,7 +81,7 @@ img {
     transition: 0.5s;
     text-decoration: none;
   }
-  .nav-link:hover {
+  .nav-link:hover, .nav-link:focus{
     color: var(--accent-color);
   }
   .cont-link {
@@ -98,7 +93,7 @@ img {
     text-decoration: none;
     align-self: center;
   }
-  .cont-link:hover {
+  .cont-link:hover, .cont-link:focus {
     color: var(--accent-color);
   }
   .container-contact-list {
@@ -127,7 +122,6 @@ img {
     letter-spacing: 2.64px;
     text-transform: uppercase;
     text-align: center;
-    margin: 0 auto;
   }
   .hero {
     background-color: var(--bg-color);
@@ -242,7 +236,7 @@ img {
       text-decoration: none;
       transition: 0.5s;
   }
-  .footer-address a:hover {
+  .footer-address a:hover, .footer-address a:focus {
     color: var(--accent-color);
   }
   .footer-address {
@@ -267,7 +261,7 @@ img {
     height: 38px;
     flex-shrink: 0;
   }
-  .projects-select button:hover {
+  .projects-select button:hover, .projects-select button:focus {
     color: var(--text-color);
     text-align: center;
     font-size: 16px;
