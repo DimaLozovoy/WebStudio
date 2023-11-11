@@ -250,6 +250,8 @@ img {
     padding: 94px 0;
   }
   .projects-select button {
+    min-width: 73px;
+    padding: 6px 22px;
     color: var(--main-color);
     font-size: 16px;
     letter-spacing: 0.48px;
@@ -257,9 +259,7 @@ img {
     font-weight: 500;
     background-color: #F5F4FA;
     border-color: #F5F4FA;
-    width: 130px;
-    height: 38px;
-    flex-shrink: 0;
+    border-color: transparent;
   }
   .projects-select button:hover, .projects-select button:focus {
     color: var(--text-color);
