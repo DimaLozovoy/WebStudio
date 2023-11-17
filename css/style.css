@@ -151,6 +151,7 @@ img {
   }
   .advantages-cell {
     list-style-type: none;
+    flex-basis: ((100% - 120px) / 4);
   }
   /* end of second section */
   .job {
@@ -171,10 +172,15 @@ img {
   }
   .job-cell {
     list-style-type: none;
+    flex-basis: ((100% - 90px) / 3);
   }
   /* end of third section */
   .our-command {
     padding: 94px 0;
+  }
+  .command-np {
+    padding-top: 28px;
+    padding-bottom: 30px;
   }
   .command-names {
     color: var(--main-color);
@@ -183,7 +189,7 @@ img {
     letter-spacing: 0.48px;
     font-weight: 500;
     margin: 0;
-    padding-top: 28px;
+
   }
   .our-command-title {
       color: var(--main-color);
@@ -197,7 +203,7 @@ img {
       text-align: center;
       letter-spacing: 0.48px;
       margin: 0;
-      padding: 13px 0 30px;
+      padding-top: 13px;
   }
   .our-command-list {
       display: flex;
@@ -208,6 +214,7 @@ img {
       list-style-type: none;
       border-radius: 0px 0px 4px 4px;
       background: var(--text-color);
+      flex-basis: ((100% - 120px) / 4);
   }
   .our-command {
       background-color: #f5f4fa;
@@ -249,8 +256,10 @@ img {
   .portfolio-projects {
     padding: 94px 0;
   }
+ 
   .projects-select button {
     min-width: 73px;
+    flex-basis: ((100% - 32px) / 5);
     padding: 6px 22px;
     color: var(--main-color);
     font-size: 16px;
@@ -291,19 +300,24 @@ img {
     color: var(--add-color);
     line-height: 1.87;
     letter-spacing: 0.48px;
-    margin: 0px 24px 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
   }
   .projects-title {
     color: var(--main-color);
     font-size: 18px;
     line-height: 36px; 
     letter-spacing: 1.08px;
-    margin: 5px 24px 20px;
+    margin-top: 30px;
   }
   .projects-list-cell {
     border: 1px solid #EEE;
     background: var(--text-color);
-    width: 370px;
-    height: 404px;
+    flex-basis: calc((100% - 60px) / 3);
+    /* width: 370px;
+    height: 404px; */
     flex-shrink: 0;
+  }
+  .projects-assembly {
+    padding-left: 24px;
   }
