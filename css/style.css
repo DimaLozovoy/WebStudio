@@ -172,7 +172,7 @@ img {
   }
   .job-cell {
     list-style-type: none;
-    flex-basis: ((100% - 90px) / 3);
+    flex-basis: calc((100% - 90px) / 3);
   }
   /* end of third section */
   .our-command {
@@ -214,7 +214,7 @@ img {
       list-style-type: none;
       border-radius: 0px 0px 4px 4px;
       background: var(--text-color);
-      flex-basis: ((100% - 120px) / 4);
+      flex-basis: calc((100% - 90px) / 4);
   }
   .our-command {
       background-color: #f5f4fa;
