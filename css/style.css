@@ -8,7 +8,7 @@
 body {
     font-family: Roboto;
   }
-  h1,
+h1,
 h2,
 h3,
 h4,
@@ -151,7 +151,29 @@ img {
   }
   .advantages-cell {
     list-style-type: none;
-    flex-basis: ((100% - 120px) / 4);
+    flex-basis: calc((100% - 120px) / 4);
+  }
+  .advantages-cell::before {
+    content: '';
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-color: #f5f4fa;
+    border: 3px solid #f5f4fa;
+    margin: 0 auto;
+    background-image: url('../images/webstudio_svg1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+  }
+  .advantages-cell:nth-child(2)::before {
+    background-image: url('../images/webstudio_svg2.svg');
+  }
+  .advantages-cell:nth-child(3)::before {
+    background-image: url('../images/webstudio_svg3.svg');
+  }
+  .advantages-cell:nth-child(4)::before {
+    background-image: url('../images/webstudio_svg4.svg');
   }
   /* end of second section */
   .job {
