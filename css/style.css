@@ -94,11 +94,15 @@ img {
     transition: 0.8s;
     text-decoration: none;
     align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .cont-link:hover, .cont-link:focus {
     color: var(--accent-color);
   }
   .cont-icon {
+    margin-right: 10px;
     fill: var(--add-color);
     transition: 0.8s;
   }
@@ -297,7 +301,7 @@ img {
   .clients-list {
     display: flex;
     padding-top: 50px;
-    gap: 10px;
+    gap: 30px;
   }
   .client-link {
     display: flex;
@@ -306,6 +310,16 @@ img {
     padding: 16px 32px;
     border-radius: 4px;
     border: 1px solid #AFB1B8;
+    transition: 0.8s;
+  }
+  .client-icon {
+    transition: 0.8s;
+  }
+  .client-link:hover, .client-link:focus {
+    border-color: var(--accent-color);
+  }
+  .client-link:hover .client-icon, .client-link:focus .client-icon {
+    fill: var(--accent-color);
   }
   /* end of penultimate section */
   .footer-information {
@@ -313,7 +327,7 @@ img {
       margin: 0 auto;
       padding: 60px 0;
   }
-  .footer-list > .comp-name {
+  .footer-links-box > .comp-name {
       color: var(--text-color);
       line-height: normal;
   }
@@ -343,6 +357,36 @@ img {
     display: flex;
     gap: 10px;
   }
+  .footer + .container {
+    display: flex;
+  }
+  .footer-soc-title {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .footer-soc-link {
+    background-color: rgba(255, 255, 255, 0.10);
+    border-radius: 50%;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+  }
+  .footer-soc-link:hover, .footer-soc-link:focus {
+    background-color: var(--accent-color);
+  }
+  .footer-soc-icon {
+    fill: white;
+  }
+
   /* end of footer|index styles */
   /* portfolio styles begin */
   .portfolio-projects {
