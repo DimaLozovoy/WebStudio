@@ -313,6 +313,7 @@ img {
     transition: 0.8s;
   }
   .client-icon {
+    fill:#AFB1B8;
     transition: 0.8s;
   }
   .client-link:hover, .client-link:focus {
@@ -357,8 +358,9 @@ img {
     display: flex;
     gap: 10px;
   }
-  .footer + .container {
+  .footer-information .container {
     display: flex;
+    gap: 70px;
   }
   .footer-soc-title {
     color: #FFF;
@@ -395,6 +397,7 @@ img {
   .projects-shadow-box {
     display: block;
     text-decoration: none;
+    transition: 0.5s;
   }
   .projects-shadow-box:hover {
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
