@@ -195,6 +195,7 @@ img {
   .advantages-cell:nth-child(4)::before {
     background-image: url('../images/webstudio_svg4.svg');
   }
+
   /* end of second section */
   .job {
     padding-bottom: 94px;
@@ -215,6 +216,24 @@ img {
   .job-cell {
     list-style-type: none;
     flex-basis: calc((100% - 90px) / 3);
+    position: relative;
+  }
+  .job-desc {
+    color: var(--text-color);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    background: rgba(47, 48, 58, 0.80);
+    padding: 27px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   /* end of third section */
   .our-command {
