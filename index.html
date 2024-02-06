@@ -42,7 +42,47 @@
         <section class="hero">
           <div class="container">
           <p class="hero-information">Ефективні Рішення Для <br> Вашого Бізнесу</p>
-          <button class="hero-button" type="button">Замовити послугу</button>
+          <button class="hero-button" type="button" data-modal-open>Замовити послугу</button>
+          <!-- xxx -->
+          <div class="backdrop is-hidden"  data-modal>
+            <div class="modal">
+                <button type=”button” class="modal-close-btn" data-modal-close>
+                    <svg width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-cross"></use>
+                </button>
+              <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>      
+              <form class="modal-form">
+                <ul class="list modal-list">
+                  <li class="modal-cell">
+                    <label class="modal-text" for="y-name">Ім'я</label>
+                    <input name="y-name" id="y-name" class="modal-input" type="text">
+                    <svg width="18" height="18" class="modal-icon">
+                      <use href="./images/symbol-defs.svg#icon-besto-frendo"></use>
+                    </svg>
+                  </li>
+                  <li class="modal-cell">
+                    <label class="modal-text" for="tel-num">Телефон</label>
+                    <input name="tel-num" id="tel-num" class="modal-input" type="tel">
+                    <svg width="18" height="18" class="modal-icon">
+                      <use href="./images/symbol-defs.svg#icon-modal-phone"></use>
+                    </svg>
+                  </li>
+                  <li class="modal-cell">
+                    <label class="modal-text" for="email">Пошта</label>
+                    <input name="email" id="email" class="modal-input" type="email">
+                    <svg width="18" height="18" class="modal-icon">
+                      <use href="./images/symbol-defs.svg#icon-modal-email"></use>
+                    </svg>
+                  </li>
+                  <li class="modal-cell">
+                    <label class="modal-text" for="review">Коментар</label>
+                    <textarea class="modal-comm" name="review" id="review" cols="30" rows="10"></textarea>
+                  </li>
+                </ul>
+              </form>          
+              <!-- xxx -->
+            </div>
+        </div>
         </div>
         </section>
         <section class="advantages">
@@ -313,6 +353,7 @@
           </div>
       </div>
       </footer>
+      <script src="./js/modal.js"></script>
     </body>
   </html>
 </body>
