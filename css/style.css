@@ -185,6 +185,7 @@ img {
     position: absolute;
     right: 8px;
     top: 8px;
+    cursor: pointer;
    }
    .modal-close-btn .modal-close-icon {
     transition: 0.5s;
@@ -246,13 +247,22 @@ img {
     flex-direction: column;
     position: relative;
    }
+   .f-modal-icon {
+    position: absolute;
+    top: 36px;
+    left: 15px;
+    fill: var(--main-color);
+   }
    .modal-icon {
     position: absolute;
     top: 32px;
     left: 15px;
     fill: var(--main-color);
    }
-   .modal-input:hover .modal-icon, .modal-input:focus .modal-icon {
+   .modal-input:hover + .f-modal-icon ,.modal-input:focus + .f-modal-icon {
+    fill: var(--accent-color);
+   }
+   .modal-input:hover + .modal-icon, .modal-input:focus + .modal-icon {
     fill: var(--accent-color);
    }
    .modal-button {
@@ -272,6 +282,7 @@ img {
     letter-spacing: 6%;
     text-align: center;
     transition: 0.5s;
+    cursor: pointer;
    }
    .modal-button:hover, .modal-button:focus {
     background-color: var(--accent-color);
@@ -544,7 +555,29 @@ img {
   .footer-soc-icon {
     fill: white;
   }
-
+  .newsletter-input {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 3%;
+    text-align: left;
+    padding: 15px 150px 15px 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background: none;
+}
+  .newsletter-btn {
+    display: flex;
+    padding: 13px 28px 13px 28px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background: var(--accent-color);
+  }
   /* end of footer|index styles */
   /* portfolio styles begin */
   .portfolio-projects {
