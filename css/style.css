@@ -47,9 +47,6 @@ img {
 }
 
 
-  .header {
-    padding: 25px 0;
-  }
   .container {
     width: 1200px;
     margin: 0 auto;
@@ -82,6 +79,18 @@ img {
     letter-spacing: 0.28px;
     transition: 0.8s;
     text-decoration: none;
+    position: relative;
+    padding: 25px 0;
+    display: block;
+  }
+  .current::after {
+    content: '';
+    display: block;
+    background-color: var(--accent-color);
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
   }
   .nav-link:hover, .nav-link:focus{
     color: var(--accent-color);
