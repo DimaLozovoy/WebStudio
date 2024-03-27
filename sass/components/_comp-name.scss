@@ -1,0 +1,15 @@
+.comp-name {
+    color: #000;
+    font-family: Raleway;
+    font-size: 26px;
+    margin: 0;
+    margin-right: 92px;
+    text-decoration: none;
+  }
+  .comp-name span {
+    color: var(--accent-color);
+  }
+  .footer-links-box > .comp-name {
+    color: var(--text-color);
+    line-height: normal;
+}

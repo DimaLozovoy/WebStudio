@@ -1,0 +1,28 @@
+.job {
+    padding-bottom: 94px;
+  }
+
+  .job-list {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 30px;
+  }
+  .job-cell {
+    list-style-type: none;
+    flex-basis: calc((100% - 90px) / 3);
+    position: relative;
+  }
+  .job-desc {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    background: rgba(47, 48, 58, 0.80);
+    padding: 27px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+ 
