@@ -60,6 +60,79 @@ img {
   padding: 0 15px;
 }
 
+.logo {
+  color: #000;
+  font-family: Raleway;
+  font-size: 26px;
+  margin: 0;
+  margin-right: 92px;
+  text-decoration: none;
+}
+
+.logo span {
+  color: var(--accent-color);
+}
+
+.footer-links-box > .logo {
+  color: var(--text-color);
+  line-height: normal;
+}
+
+.advantages-item-title {
+  color: var(--main-color);
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.footer-soc-title {
+  color: #FFF;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.modal-title {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--main-color);
+  margin-bottom: 12px;
+}
+
+.clients-title {
+  color: var(--main-color);
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 1.08px;
+}
+
+.job-title {
+  color: var(--main-color);
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 1.08px;
+  margin-bottom: 60px;
+}
+
+.our-command-title {
+  color: var(--main-color);
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 1.08px;
+  margin-bottom: 50px;
+}
+
+.projects-title {
+  color: var(--main-color);
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 1.08px;
+}
+
 .header-information, .cont-nav-list, .container-contact-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -200,6 +273,10 @@ img {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
+}
+
+.hero-button:hover, .hero-button:focus {
+  background-color: var(--bg-color);
 }
 
 .backdrop {
@@ -456,6 +533,16 @@ img {
 
 .advantages-cell:nth-child(4)::before {
   background-image: url("../images/webstudio_svg4.svg");
+}
+
+.advantages-text {
+  color: var(--add-color);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 3%;
+  text-align: left;
 }
 
 .job {
@@ -883,77 +970,4 @@ img {
   line-height: 1.87;
   letter-spacing: 0.48px;
   margin-top: 4px;
-}
-
-.comp-name {
-  color: #000;
-  font-family: Raleway;
-  font-size: 26px;
-  margin: 0;
-  margin-right: 92px;
-  text-decoration: none;
-}
-
-.comp-name span {
-  color: var(--accent-color);
-}
-
-.footer-links-box > .comp-name {
-  color: var(--text-color);
-  line-height: normal;
-}
-
-.advantages-item-title {
-  color: var(--main-color);
-  font-size: 14px;
-  letter-spacing: 0.42px;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
-.footer-soc-title {
-  color: #FFF;
-  font-size: 14px;
-  letter-spacing: 0.42px;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-}
-
-.modal-title {
-  font-weight: 700;
-  font-size: 20px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: var(--main-color);
-  margin-bottom: 12px;
-}
-
-.clients-title {
-  color: var(--main-color);
-  text-align: center;
-  font-size: 36px;
-  letter-spacing: 1.08px;
-}
-
-.job-title {
-  color: var(--main-color);
-  text-align: center;
-  font-size: 36px;
-  letter-spacing: 1.08px;
-  margin-bottom: 60px;
-}
-
-.our-command-title {
-  color: var(--main-color);
-  text-align: center;
-  font-size: 36px;
-  letter-spacing: 1.08px;
-  margin-bottom: 50px;
-}
-
-.projects-title {
-  color: var(--main-color);
-  font-size: 18px;
-  line-height: 36px;
-  letter-spacing: 1.08px;
 }/*# sourceMappingURL=main.css.map */

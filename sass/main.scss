@@ -1,6 +1,8 @@
 @import 'utils/vars';
 @import 'base/common';
 @import 'base/container';
+@import 'components/logo';
+@import 'components/title';
 @import 'layout/header';
 @import 'layout/hero';
 @import 'layout/modal';
@@ -9,6 +11,4 @@
 @import 'layout/our-command';
 @import 'layout/clients';
 @import 'layout/footer';
-@import 'layout/portfolio-proj';
-@import 'components/comp-name';
-@import 'components/title';
+@import 'pages/portfolio-proj';
