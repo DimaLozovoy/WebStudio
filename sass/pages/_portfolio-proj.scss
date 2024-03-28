@@ -8,7 +8,7 @@
     justify-content: center;
     margin-bottom: 50px;
   }
-  .projects-button {
+  .projects-select__button {
     min-width: 73px;
     padding: 6px 22px;
     color: var(--main-color);
@@ -20,13 +20,13 @@
     border-color: transparent;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .projects-button:hover, .projects-button:focus {
+  .projects-select__button:hover, .projects-select__button:focus {
     color: var(--text-color);
     background: var(--accent-color);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
     cursor: pointer;
   }
-  .projects-list {
+  .projects__list {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
@@ -34,25 +34,25 @@
     padding: 0;
     gap: 35px 30px;
   }
-  .projects-list-cell {
+  .projects-list__cell {
     border: 1px solid #EEE;
     background: var(--text-color);
     flex-basis: calc((100% - 60px) / 3);
     flex-shrink: 0;
   }
-  .projects-shadow-box {
+  .projects__shadow-box {
     display: block;
     text-decoration: none;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .projects-shadow-box:hover {
+  .projects__shadow-box:hover {
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
   }
-  .projects-overlay {
+  .projects__overlay {
     position: relative;
     overflow: hidden;
   }
-  .overlay-text {
+  .overlay__text {
 
     position: absolute;
     padding: 63px 24px;
@@ -66,17 +66,17 @@
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(100%);
   }
-  .projects-overlay:hover .overlay-text, .projects-overlay:focus .overlay-text {
+  .projects__overlay:hover .overlay__text, .projects__overlay:focus .overlay__text {
 
     transform: translateY(0);
   }
-  .projects-assembly {
+  .projects__assembly {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 24px;
   }
 
-  .projects-text {
+  .projects__text {
     color: var(--add-color);
     line-height: 1.87;
     letter-spacing: 0.48px;

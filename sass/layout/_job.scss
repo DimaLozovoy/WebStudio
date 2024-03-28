@@ -1,19 +1,19 @@
 .job {
     padding-bottom: 94px;
   }
-
-  .job-list {
+  .job__list {
     display: flex;
     align-items: center;
     margin: 0 auto;
     gap: 30px;
+    margin-top: 50px;
   }
-  .job-cell {
+  .job__cell {
     list-style-type: none;
     flex-basis: calc((100% - 90px) / 3);
     position: relative;
   }
-  .job-desc {
+  .job__desc {
     color: var(--text-color);
     text-align: center;
     font-size: 14px;
