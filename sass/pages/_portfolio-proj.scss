@@ -34,7 +34,7 @@
     padding: 0;
     gap: 35px 30px;
   }
-  .projects-list__cell {
+  .projects__cell {
     border: 1px solid #EEE;
     background: var(--text-color);
     flex-basis: calc((100% - 60px) / 3);

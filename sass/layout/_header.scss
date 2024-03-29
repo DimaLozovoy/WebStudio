@@ -13,11 +13,11 @@
   .logo span {
     color: var(--accent-color);
   }
-  .cont-nav-list, .container-contact-list {
+  .cont-nav__list, .container-contact__list {
     display: flex;
     gap: 50px;
   }
-  .cont-nav-list__link {
+  .cont-nav__link {
     color: var(--main-color);
     font-size: 14px;
     font-style: normal;
@@ -29,7 +29,7 @@
     padding: 25px 0;
     display: block;
   }
-  .current::after {
+  .cont-nav__link--current::after {
     content: '';
     display: block;
     background-color: var(--accent-color);
@@ -41,16 +41,16 @@
     border-radius: 4px;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .current:hover::after {
+  .cont-nav__link--current:hover::after {
     opacity: 1;
   }
-  .cont-nav-list__link:hover, .cont-nav-list__link:focus{
+  .cont-nav__link:hover, .cont-nav__link:focus{
     color: var(--accent-color);
   }
-  .container-contact-list {
+  .container-contact__list {
     margin-left: auto;
   }
-  .container-contact-list__link {
+  .container-contact__link {
     color: var(--add-color);
     font-size: 14px;
     font-weight: 500;
@@ -62,15 +62,15 @@
     justify-content: center;
     align-items: center;
   }
-  .container-contact-list__link:hover, .container-contact-list__link:focus {
+  .container-contact__link:hover, .container-contact__link:focus {
     color: var(--accent-color);
   }
-  .container-contact-list__icon {
+  .container-contact__icon {
     margin-right: 10px;
     fill: var(--add-color);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .container-contact-list__link:hover .container-contact-list__icon,
-   .container-contact-list__link:focus .container-contact-list__icon {
+  .container-contact__link:hover .container-contact__icon,
+   .container-contact__link:focus .container-contact__icon {
     fill: var(--accent-color);
   }
