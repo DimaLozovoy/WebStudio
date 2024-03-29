@@ -21,7 +21,7 @@
     padding-bottom: 30px;
   }
   .our-command__names {
-    color: var(--main-color);
+    color: $main-color;
     text-align: center;
     font-size: 16px;
     letter-spacing: 0.48px;
@@ -31,7 +31,7 @@
   }
 
   .our-command__profession {
-      color: var(--add-color);
+      color: $add-color;
       text-align: center;
       letter-spacing: 0.48px;
       margin: 0;
@@ -58,7 +58,7 @@
   }
 
   .worker-soc-list__link:hover,  .worker-soc-list__link:focus {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
   }
 
   .worker-soc-list__link:hover .worker-soc-list__icon, 

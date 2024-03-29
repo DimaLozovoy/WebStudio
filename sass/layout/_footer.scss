@@ -1,6 +1,6 @@
 
 .footer__information {
-    background-color: var(--bg-color);
+    background-color: $bg-color;
     margin: 0 auto;
     padding: 60px 0;
 }
@@ -15,12 +15,12 @@
   gap: 9px;
 }
 .footer-address__link--color {
-    color: var(--text-color);
+    color: $text-color;
     text-decoration: none;
     margin-top: 32px;
 }
 .footer-address__link {
-    color: var(--add-color);
+    color: $add-color;
     font-size: 14px;
     font-style: normal;
     line-height: 1.71; 
@@ -29,7 +29,7 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-address__link:hover, .footer-address__link:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .footer-soc-list {
@@ -49,18 +49,9 @@
 .footer-soc-list__icon {
   fill: white;
 }
-.footer-soc-box__title {
-  color: var($text-color);
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 16px;
-  letter-spacing: 3%;
-  text-align: left;
-  text-transform: uppercase;
-}
 
 .footer-soc-list__link:hover, .footer-soc-list__link:focus {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 .newsletter-box__form {
   display: flex;
@@ -83,10 +74,10 @@
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .newsletter-box__input:hover, .newsletter-box__input:focus {
-border-color: var(--accent-color);
+border-color: $accent-color;
 }
 .newsletter-box__title {
-  color: var(--text-color);
+  color: $text-color;
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
@@ -104,13 +95,13 @@ border-color: var(--accent-color);
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background: var(--bg-color);
-  color: var(--text-color);
+  color: $text-color;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .newsletter-box__icon {
-  fill: var(--text-color);
+  fill: $text-color;
 }
 .newsletter-box__btn:hover, .newsletter-box__btn:focus {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }

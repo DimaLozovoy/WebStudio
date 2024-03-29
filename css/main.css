@@ -69,16 +69,16 @@ img {
 }
 
 .logo__accent {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .footer__logo {
-  color: var(--text-color);
+  color: white;
   line-height: normal;
 }
 
 .advantages__item-title {
-  color: var(--main-color);
+  color: #212121;
   font-size: 14px;
   letter-spacing: 0.42px;
   text-transform: uppercase;
@@ -98,7 +98,7 @@ img {
   font-size: 20px;
   letter-spacing: 0.03em;
   text-align: center;
-  color: var(--main-color);
+  color: --main-color;
   margin-bottom: 12px;
 }
 
@@ -890,7 +890,7 @@ img {
 .projects-select__button {
   min-width: 73px;
   padding: 6px 22px;
-  color: var(--main-color);
+  color: #212121;
   font-size: 16px;
   letter-spacing: 0.48px;
   border-radius: 4px;
@@ -904,8 +904,8 @@ img {
 }
 
 .projects-select__button:hover, .projects-select__button:focus {
-  color: var(--text-color);
-  background: var(--accent-color);
+  color: white;
+  background: #2196f3;
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   cursor: pointer;

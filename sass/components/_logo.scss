@@ -7,9 +7,9 @@
   }
 
   .logo__accent {
-    color: var(--accent-color);
+    color: $accent-color;
   }
   .footer__logo {
-    color: var(--text-color);
+    color: $text-color;
     line-height: normal;
 }
