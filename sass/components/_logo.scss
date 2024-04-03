@@ -1,15 +1,15 @@
-  .header__logo {
-    color: #000;
+  .logo {
     font-size: 26px;
     margin: 0;
     margin-right: 92px;
     text-decoration: none;
   }
-
-  .logo__accent {
-    color: $accent-color;
+  .header__logo {
+    color: #000;
   }
   .footer__logo {
     color: $text-color;
-    line-height: normal;
-}
+  }
+  .logo__accent {
+    color: $accent-color;
+  }

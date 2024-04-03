@@ -129,13 +129,13 @@
     align-items: center;
    }
    .private-policy__link {
-    color: $-accent-color;
+    color: $accent-color;
    }
    .modal__button {
     border: none;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    background: var(--bg-color);
+    background: $bg-color;
     margin: 0 auto;
     display: block;
     margin-top: 30px;

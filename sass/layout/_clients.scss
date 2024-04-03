@@ -23,5 +23,5 @@
     border-color: $accent-color;
   }
   .clients-list__link:hover .clients-list__icon, .clients-list__link:focus .clients-list__icon {
-    fill: var(--accent-color);
+    fill: $accent-color;
   }
