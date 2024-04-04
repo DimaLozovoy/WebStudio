@@ -2,6 +2,13 @@
     padding-top: 94px;
     padding-bottom: 118px;
   }
+  .advantages__item-title {
+    color: $main-color;
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
   .advantages__list {
     display: flex;
     gap: 30px;

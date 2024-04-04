@@ -14,11 +14,7 @@
   flex-direction: column;
   gap: 9px;
 }
-.footer-address__link--color {
-    color: $text-color;
-    text-decoration: none;
-    margin-top: 32px;
-}
+
 .footer-address__link {
     color: $add-color;
     font-size: 14px;
@@ -28,10 +24,21 @@
     text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer-address__link--color {
+  color: $text-color;
+  text-decoration: none;
+  margin-top: 32px;
+}
 .footer-address__link:hover, .footer-address__link:focus {
   color: $accent-color;
 }
-
+.footer-soc-box__title {
+  color: #FFF;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
 .footer-soc-list {
   display: flex;
   gap: 10px;
@@ -85,23 +92,6 @@ border-color: $accent-color;
   text-align: left;
   text-transform: uppercase;
 }
-.newsletter-box__btn {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  justify-content: center;
-  padding: 13px 28px 13px 28px;
-  border: none;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  background: var(--bg-color);
-  color: $text-color;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .newsletter-box__icon {
   fill: $text-color;
-}
-.newsletter-box__btn:hover, .newsletter-box__btn:focus {
-  background-color: $accent-color;
 }

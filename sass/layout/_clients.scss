@@ -1,6 +1,12 @@
 .clients {
     padding: 94px 0;
   }
+  .clients__title {
+    color: $main-color;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 1.08px;
+  }
   .clients-list {
     display: flex;
     padding-top: 50px;

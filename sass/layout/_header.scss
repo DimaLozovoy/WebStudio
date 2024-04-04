@@ -2,17 +2,6 @@
     display: flex;
     align-items: center;
   }
-  .logo {
-    font-family: Raleway;
-    color: #000;
-    font-size: 26px;
-    margin: 0;
-    margin-right: 92px;
-    text-decoration: none;
-  }
-  .logo span {
-    color: $accent-color;
-  }
   .container-nav__list, .container-contact__list {
     display: flex;
     gap: 50px;
@@ -67,10 +56,10 @@
   }
   .container-contact__icon {
     margin-right: 10px;
-    fill: var(--add-color);
+    fill: $add-color;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .container-contact__link:hover .container-contact__icon,
    .container-contact__link:focus .container-contact__icon {
-    fill: var(--accent-color);
+    fill: $accent-color;
   }

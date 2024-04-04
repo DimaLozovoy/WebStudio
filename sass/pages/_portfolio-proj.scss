@@ -74,7 +74,12 @@
     padding-bottom: 30px;
     padding-left: 24px;
   }
-
+  .projects__title {
+    color: $main-color;
+    font-size: 18px;
+    line-height: 36px; 
+    letter-spacing: 1.08px;
+  }
   .projects__text {
     color: $add-color;
     line-height: 1.87;

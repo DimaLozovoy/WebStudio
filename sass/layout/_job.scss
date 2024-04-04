@@ -1,6 +1,14 @@
 .job {
     padding-bottom: 94px;
   }
+  .job__title {
+    color: $main-color;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 3%;
+    text-align: center;
+  }
   .job__list {
     display: flex;
     align-items: center;
