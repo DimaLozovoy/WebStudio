@@ -36,7 +36,7 @@
   }
   .projects__cell {
     border: 1px solid #EEE;
-    background: var(--text-color);
+    background: $text-color;
     flex-basis: calc((100% - 60px) / 3);
     flex-shrink: 0;
   }
@@ -52,7 +52,7 @@
     position: relative;
     overflow: hidden;
   }
-  .projects__overlay-text {
+  .overlay__text {
     position: absolute;
     padding: 63px 24px;
     color: $text-color;
@@ -66,7 +66,6 @@
     transform: translateY(100%);
   }
   .projects__overlay:hover .overlay__text, .projects__overlay:focus .overlay__text {
-
     transform: translateY(0);
   }
   .projects__assembly {

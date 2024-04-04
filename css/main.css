@@ -913,7 +913,7 @@ img {
 
 .projects__cell {
   border: 1px solid #EEE;
-  background: var(--text-color);
+  background: white;
   -ms-flex-preferred-size: calc((100% - 60px) / 3);
       flex-basis: calc((100% - 60px) / 3);
   -ms-flex-negative: 0;
@@ -939,7 +939,7 @@ img {
   overflow: hidden;
 }
 
-.projects__overlay-text {
+.overlay__text {
   position: absolute;
   padding: 63px 24px;
   color: white;
