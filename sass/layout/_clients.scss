@@ -3,14 +3,12 @@
   }
   .clients__title {
     color: $main-color;
+    @include font-styles(36px, 700, 3%, 42px);
     text-align: center;
-    font-size: 36px;
-    letter-spacing: 1.08px;
   }
   .clients-list {
-    display: flex;
+    @include flex(30px);
     padding-top: 50px;
-    gap: 30px;
   }
   .clients-list__link {
     display: flex;
@@ -20,13 +18,13 @@
     border-radius: 4px;
     border: 1px solid #AFB1B8;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover, &:focus {
+      border-color: $accent-color;
+    }
   }
   .clients-list__icon {
     fill: #AFB1B8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .clients-list__link:hover, .clients-list__link:focus {
-    border-color: $accent-color;
   }
   .clients-list__link:hover .clients-list__icon, .clients-list__link:focus .clients-list__icon {
     fill: $accent-color;

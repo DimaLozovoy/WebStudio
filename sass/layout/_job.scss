@@ -3,17 +3,14 @@
   }
   .job__title {
     color: $main-color;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 42px;
-    letter-spacing: 3%;
+    @include font-styles(36px, 700, 3%, 42px);
     text-align: center;
   }
+
   .job__list {
-    display: flex;
+    @include flex(30px);
     align-items: center;
     margin: 0 auto;
-    gap: 30px;
     margin-top: 50px;
   }
   .job__cell {
@@ -24,8 +21,7 @@
   .job__subtitle {
     color: $text-color;
     text-align: center;
-    font-size: 14px;
-    letter-spacing: 0.42px;
+    @include font-styles(14px, 700, 3%, 16px);
     background: rgba(47, 48, 58, 0.80);
     padding: 27px 0;
     position: absolute;

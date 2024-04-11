@@ -4,14 +4,12 @@
   }
   .advantages__item-title {
     color: $main-color;
-    font-size: 14px;
-    letter-spacing: 0.42px;
+    @include font-styles(14px, 700, 3%, 16px);
     text-transform: uppercase;
     margin-bottom: 10px;
   }
   .advantages__list {
-    display: flex;
-    gap: 30px;
+    @include flex(30px)
   }
   .advantages__cell {
     list-style-type: none;
@@ -19,7 +17,9 @@
   }
   .advantages__cell::before {
     content: '';
+
     display: block;
+    
     width: 270px;
     height: 120px;
     background-color: #f5f4fa;
@@ -42,10 +42,7 @@
 
   .advantages__text {
     color: $add-color;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 3%;
+    @include font-styles(14px, 400, 3%, 24px);
     text-align: left;
   }
 

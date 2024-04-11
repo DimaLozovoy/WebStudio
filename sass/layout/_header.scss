@@ -1,22 +1,21 @@
 .header__information, .cont-nav-list,  .container-contact-list {
-    display: flex;
+    @include flex(0px);
     align-items: center;
   }
   .container-nav__list, .container-contact__list {
-    display: flex;
-    gap: 50px;
+    @include flex(50px);
   }
   .container-nav__link {
     color: $main-color;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    letter-spacing: 0.28px;
+    @include font-styles(14px, 500, 2%, 16px);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     text-decoration: none;
     position: relative;
     padding: 25px 0;
     display: block;
+    &:hover, &:focus {
+      color: $accent-color;
+    }
   }
   .container-nav__link--current::after {
     content: '';
@@ -33,26 +32,21 @@
   .container-nav__link--current:hover::after {
     opacity: 1;
   }
-  .container-nav__link:hover, .container-nav__link:focus{
-    color: $accent-color;
-  }
   .container-contact__list {
     margin-left: auto;
   }
   .container-contact__link {
     color: $add-color;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.28px;
+    @include font-styles(14px, 500, 2%, 16px);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     text-decoration: none;
     align-self: center;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .container-contact__link:hover, .container-contact__link:focus {
-    color: $accent-color;
+    &:hover, &:focus {
+      color: $accent-color;
+    }
   }
   .container-contact__icon {
     margin-right: 10px;

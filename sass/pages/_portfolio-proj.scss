@@ -2,8 +2,7 @@
     padding: 94px 0;
   }
   .projects-select {
-    display: flex;
-    gap: 8px;
+    @include flex(8px);
     list-style-type: none;
     justify-content: center;
     margin-bottom: 50px;
@@ -12,10 +11,8 @@
     min-width: 73px;
     padding: 6px 22px;
     color: $main-color;
-    font-size: 16px;
-    letter-spacing: 0.48px;
+    @include font-styles(16px, 500, 3%, 26px);
     border-radius: 4px;
-    font-weight: 500;
     background-color: #F5F4FA;
     border-color: transparent;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -28,11 +25,10 @@
   }
   .projects__list {
     list-style-type: none;
-    display: flex;
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    gap: 35px 30px;
+    @include flex(35px 30px);
   }
   .projects__cell {
     border: 1px solid #EEE;
@@ -56,12 +52,9 @@
     position: absolute;
     padding: 63px 24px;
     color: $text-color;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28px;
-    letter-spacing: 0.03em;
+    @include font-styles(18px, 400, 3%, 28px);
     top: 0; bottom: 0; right: 0; left: 0;
-    background-color: rgba(33, 150, 243, 0.9);
+    background-color: $accent-color;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(100%);
   }
@@ -75,13 +68,10 @@
   }
   .projects__title {
     color: $main-color;
-    font-size: 18px;
-    line-height: 36px; 
-    letter-spacing: 1.08px;
+    @include font-styles(18px, 700, 6%, 36px);
   }
   .projects__text {
     color: $add-color;
-    line-height: 1.87;
-    letter-spacing: 0.48px;
+    @include font-styles(16px, 400, 3%, 30px);
     margin-top: 4px;
   }

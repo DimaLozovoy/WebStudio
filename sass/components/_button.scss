@@ -1,9 +1,6 @@
 .hero__button {
     color: $text-color;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.87;
-    letter-spacing: 0.96px;
+    @include font-styles(16px, 700, 6%, 30px);  //,  1.87
     padding: 10px 32px;
     border-radius: 4px;
     background: $accent-color;
@@ -13,44 +10,46 @@
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
+    &:hover, &:focus {
+      background-color: $bg-color;
+    }
   }
-.hero-button:hover, .hero-button:focus {
-  background-color: $bg-color;
-}
+// .hero-button:hover, .hero-button:focus {
+//   
+// }
 .modal__button {
     border: none;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     background: $bg-color;
     margin: 0 auto;
+
     display: block;
+
     margin-top: 30px;
     padding: 10px 52px;
     color: $text-color;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 30px;
-    letter-spacing: 6%;
+    @include font-styles(16px, 700, 6%, 30px);
     text-align: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
-   }
-   .modal__button:hover, .modal__button:focus {
-    background-color: $accent-color;
+    &:hover, &:focus {
+      background-color: $accent-color;
+    }
    }
    .newsletter-box__btn {
-    display: flex;
-    gap: 10px;
+    @include flex(10px);
     align-items: center;
     justify-content: center;
+    
     padding: 13px 28px 13px 28px;
     border: none;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    background: var(--bg-color);
+    background: $bg-color;
     color: $text-color;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .newsletter-box__btn:hover, .newsletter-box__btn:focus {
-    background-color: $accent-color;
+    &:hover, &:focus {
+      background-color: $accent-color;
+    }
   }
