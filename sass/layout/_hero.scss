@@ -1,9 +1,11 @@
   .hero {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../images/bg_img.jpg);
-    background-size: cover;
-    background-position: center;
     background-color: $bg-color;
     padding: 200px 0;
+  }
+  @for $i from 1 through 1 {
+    .hero {
+      background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../images/bg_img.jpg);
+    }
   }
   .hero__title {
     color: $text-color;
