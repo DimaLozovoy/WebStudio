@@ -15,31 +15,22 @@
     list-style-type: none;
     flex-basis: calc((100% - 120px) / 4);
   }
+
   .advantages__cell::before {
     content: '';
-
     display: block;
-    
     width: 270px;
     height: 120px;
     background-color: #f5f4fa;
     border-radius: 4px;
     margin: 0 auto;
-    background-image: url('../images/webstudio_svg1.svg');
-    background-repeat: no-repeat;
-    background-position: center;
     margin-bottom: 30px;
   }
-  .advantages__cell:nth-child(2)::before {
-    background-image: url('../images/webstudio_svg2.svg');
+  @for $i from 1 through 4 {
+    .advantages__cell::before:nth-child(#{$i}) {
+      background-image: url("../images/svg-icon-images/webstudio_svg#{$i}.svg");
+    }
   }
-  .advantages__cell:nth-child(3)::before {
-    background-image: url('../images/webstudio_svg3.svg');
-  }
-  .advantages__cell:nth-child(4)::before {
-    background-image: url('../images/webstudio_svg4.svg');
-  }
-
   .advantages__text {
     color: $add-color;
     @include font-styles(14px, 400, 3%, 24px);
