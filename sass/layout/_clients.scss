@@ -3,7 +3,7 @@
   }
   .clients__title {
     color: $main-color;
-    @include font-styles(36px, 700, 3%, 42px);
+    @include font-styles(36px, 700, 3%, 1.16);
     text-align: center;
   }
   .clients-list {

@@ -15,7 +15,7 @@
 
 .footer-address__link {
     color: $add-color;
-    @include font-styles(14px, 400, 3%, 24px);
+    @include font-styles(14px, 400, 3%, 1.71);
     text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover, &:focus {
@@ -29,7 +29,7 @@
 }
 .footer-soc-box__title {
   color: #FFF;
-  @include font-styles(14px, 700, 3%, 16px);
+  @include font-styles(14px, 700, 3%, 1.14);
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -59,7 +59,7 @@
 }
 .newsletter-box__input {
   color: rgba(255, 255, 255, 0.6);
-  @include font-styles(16px, 400, 3%, 20px);
+  @include font-styles(16px, 400, 3%, 1.25);
   text-align: left;
   padding: 15px 150px 15px 16px;
   box-sizing: border-box;
@@ -74,7 +74,7 @@
 }
 .newsletter-box__title {
   color: $text-color;
-  @include font-styles(14px, 700, 3%, 16px);
+  @include font-styles(14px, 700, 3%, 1.14);
   text-align: left;
   text-transform: uppercase;
 }

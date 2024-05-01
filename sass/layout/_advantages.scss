@@ -4,7 +4,7 @@
   }
   .advantages__item-title {
     color: $main-color;
-    @include font-styles(14px, 700, 3%, 16px);
+    @include font-styles(14px, 700, 3%, 1.14);
     text-transform: uppercase;
     margin-bottom: 10px;
   }
@@ -27,13 +27,13 @@
     margin-bottom: 30px;
   }
   @for $i from 1 through 4 {
-    .advantages__cell::before:nth-child(#{$i}) {
-      background-image: url("../images/svg-icon-images/webstudio_svg#{$i}.svg");
+    .advantages__cell:nth-child(#{$i})::before {
+      background-image: url(".../images/svg-icon-images/webstudio_svg#{$i}.svg");
     }
   }
   .advantages__text {
     color: $add-color;
-    @include font-styles(14px, 400, 3%, 24px);
+    @include font-styles(14px, 400, 3%, 1.71);
     text-align: left;
   }
 
