@@ -2,8 +2,18 @@
     @include flex(0px);
     align-items: center;
   }
-  .container-nav__list, .container-contact__list {
+  .container-nav__list {
     @include flex(50px);
+  }
+  .container-contact__list {
+    @include flex(30px);
+    @media screen and (min-width:768px) {
+      gap: 10px;
+      flex-direction: column;
+    }
+    @media screen and (min-width:1200px) {
+      gap: 30px;
+    }
   }
   .container-nav__link {
     color: $main-color;

@@ -10,23 +10,23 @@
     color: $main-color;
     text-align: center;
     margin-bottom: 30px;
-
     font-size: 28px;
     letter-spacing: 0.03em;
-
+    margin-bottom: 50px;
     @media screen and (min-width:1200px) {
       @include font-styles(36px, 700, 3%, 1.16);
       margin-bottom: 50px;
     }
+
 }
 .our-command__list {
   @include flex(30px);
   justify-content: center;
-  // flex-direction: column;
-  // @media screen and (min-width:768) {
-  //   flex-wrap: wrap;
-  //   flex-direction: row;
-  // }
+  flex-direction: column;
+  @media screen and (min-width:768px) {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
 }
 .our-command__cell {
   list-style-type: none;
@@ -35,16 +35,13 @@
   width: 100%;
   flex-basis: calc((100% - 90px) / 4);
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-  // @media screen and (min-width:768) {
-  //   flex-basis: calc((100% - 30px) / 2);
-    
-  // }
+  @media screen and (min-width:768) {
+    flex-basis: calc((100% - 30px) / 2);
+  }
 }
   .our-command__wrapper-info {
-    // padding-top: 28px;
-    // padding-bottom: 30px;
- padding-top: 30px;
-    padding-bottom: 24px;
+    padding-top: 30px;
+    padding-bottom: 16px;
   }
   .our-command__names {
     color: $main-color;
@@ -64,8 +61,11 @@
     @include flex(10px);
     align-items: center;
     justify-content: center;
-    padding-bottom: 42px;
+    padding-bottom: 24px;
     padding-top: 16px;
+    @media screen and (min-width:1200px) {
+      padding-bottom: 42px;
+    }
   }
   .worker-soc-list__link {
     @include flex(0);

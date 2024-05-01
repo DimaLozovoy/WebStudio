@@ -1,5 +1,8 @@
   .hero {
-    padding: 200px 0;
+    padding: 118px 0;
+    @media screen and (min-width:1200px) {
+      padding: 200px 0;
+    }
     background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url('.../hero-bg-images/bg_img.jpg'); 
   @media (min-device-pixel-ratio: 2),
  (min-resolution: 192dpi),
@@ -10,7 +13,10 @@
   }
   .hero__title {
     color: $text-color;
-    @include font-styles(44px, 900, 6%, 1.36);
+    @include font-styles(26px, 900, 6%, 1.36);
     text-transform: uppercase;
     text-align: center;
+    @media screen and (min-width:1200px) {
+      @include font-styles(44px, 900, 6%, 1.36);
+    }
   }
