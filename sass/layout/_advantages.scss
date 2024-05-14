@@ -39,19 +39,20 @@
     width: 65px;
     height: 70px;
     background-color: #f5f4fa;
+    background-repeat: no-repeat;
     border-radius: 4px;
     margin: 0 auto;
     margin-bottom: 25px;
     @media screen and (min-width:1200px) {
       margin-bottom: 30px;
-      width: 270px;
+      width: 100%;
       height: 120px;
     }
 
   }
   @for $i from 1 through 4 {
     .advantages__cell:nth-child(#{$i})::before {
-      background-image: url(".../images/svg-icon-images/webstudio_svg#{$i}.svg");
+      background-image: url("../images/svg-icon-images/webstudio_svg#{$i}.svg");
     }
   }
   .advantages__text {
