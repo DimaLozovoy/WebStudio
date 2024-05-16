@@ -141,7 +141,7 @@
    }
    .private-policy__input:checked + .private-policy__custom-input {
     background-color: $accent-color;
-    background-image: url(../images/icon_check.svg);
+    background-image: url("../images/icon_check.svg");
     background-repeat: no-repeat;
     background-position: center;
    }

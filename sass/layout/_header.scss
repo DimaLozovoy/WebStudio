@@ -4,9 +4,11 @@
   }
   .container-nav__list {
     @include flex(50px);
+    display: none;
   }
   .container-contact__list {
     @include flex(30px);
+    display: none;
     @media screen and (min-width:768px) {
       gap: 10px;
       flex-direction: column;
