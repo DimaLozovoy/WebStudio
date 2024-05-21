@@ -110,6 +110,9 @@
 <symbol id="icon-send" viewBox="0 0 32 32">
 <path d="M32 0l-32 18 10.227 3.788 15.773-14.788-11.998 16.186 0.010 0.004-0.012-0.004v8.814l5.735-6.691 7.265 2.691 5-28z"></path>
 </symbol>
+<symbol id="burger-icon" viewBox="0 0 44 32">
+<path d="M0 0v4.431h44.308v-4.431h-44.308zM0 13.292v4.431h44.308v-4.431h-44.308zM0 31.016v-4.431h44.308v4.431h-44.308z"></path>
+</symbol>
 </symbol>
 </symbol>
 </symbol>
